@@ -1,5 +1,4 @@
 # user.js
-:underage:  :cl:   :u7981:   :secret:   -- :x: :x: :o: :o:
+:sparkles: :sparkles: :sparkles:
 
-
-tampermonkey 脚本合集
+:point_right: tampermonkey 脚本合集
