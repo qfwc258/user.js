@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         视频网站破解
 // @namespace    undefined
-// @version      0.0.1
+// @version      0.0.2
 // @description  :underage: 视频网站破解
 // @author       16Free
 // @match        http://www.ri003.com/videos/*
