@@ -36,6 +36,7 @@ function createVideoEle() {
         console.log('create video ele, url is :', videoUrl);
 
         var videoDiv = '<div id="user_video_div"><video id="user_video" controls="controls" autoplay></video></div>';
+        $(document.body).empty();
         $(document.body).css({
             width: '100%',
             height: '100%'
