@@ -1,43 +1,18 @@
 // ==UserScript==
 // @name         视频网站破解
 // @namespace    undefined
-// @version      0.0.5
+// @version      0.0.6
 // @description  :underage: 视频网站破解(http://ripe.cf/)
 // @author       16Free
 // @match        http://www.ri003.com/videos/*
-// @match        http://91.91p17.space/*
 // @require      https://code.jquery.com/jquery-latest.js
 // @run-at       document-start
 // @grant        unsafeWindow
 // @grant        GM_setClipboard
 // ==/UserScript==
 $(document).ready(function () {
-    var href = window.location.href;
-
-    if(href.indexOf('91.91p17.space')){
-        pron91();
-    }else if(href.indexOf('www.ri003.com')){
-        ri003();
-    }
-
+    ri003();
 });
-
-
-function pron91() {
-    $(document.body).find('iframe').remove();//ad
-    var vidEle = $('#vid_html5_api');
-    if(!vidEle){
-        return;
-    }
-    var vidSource = vidEle.find('source');
-    if(!vidSource || vidSource.length === 0 || !vidSource[0].src){
-        return;
-    }
-    var url = vidSource[0].src;
-    createVideoEle(url);
-    
-}
-
 
 function ri003() {
     setCookie('video_log', 0, '.ri003.com', '/');
