@@ -54,7 +54,7 @@ function setCookie(name, value, domain, path) {
 }
 
 function createVideoEle(url) {
-    console.log('create video ele, url is :', videoUrl);
+    console.log('create video ele, url is :', url);
 
     var videoDiv = '<div id="user_video_div"><video id="user_video" controls="controls" autoplay></video></div>';
     $(document.body).empty();
@@ -63,7 +63,7 @@ function createVideoEle(url) {
         height: '100%'
     });
     $(document.body).append(videoDiv);
-    $('#user_video').attr('src', videoUrl);
+    $('#user_video').attr('src', url);
     $('#user_video_div').css({
         width: '100%',
         height: '100%',
