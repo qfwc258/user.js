@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         视频网站破解
 // @namespace    undefined
-// @version      0.0.3
+// @version      0.0.4
 // @description  :underage: 视频网站破解(http://ripe.cf/)
 // @author       16Free
 // @match        http://www.ri003.com/videos/*
-// @match        http://91.91p17.space/view_video.php?*
+// @match        http://91.91p17.space/*
 // @require      https://code.jquery.com/jquery-latest.js
 // @run-at       document-start
 // @grant        unsafeWindow
@@ -24,8 +24,13 @@ $(document).ready(function () {
 
 
 function pron91() {
-    var url = $('#vid_html5_api').find('source')[0].src;
-    createVideoEle(url);
+    $(document.body).find('iframe').remove();//ad
+    var vidEle = $('#vid_html5_api');
+    if(vidEle){
+        var url = vidEle.find('source')[0].src;
+        createVideoEle(url);
+    }
+    
 }
 
 
