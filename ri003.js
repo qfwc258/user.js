@@ -21,6 +21,7 @@ function ri003() {
     $('div[align="center"]').remove();
     $('div.footer-margin').remove();
     $('noindex').remove();
+    $('qq').remove();
 
     if (flashvars) {
         var videoUrl = flashvars.video_url;
