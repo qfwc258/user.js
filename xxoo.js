@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         小黄片去广告，绕过会员机制
+// @name         小黄片去广告
 // @namespace    undefined
 // @version      0.0.5
 // @description  小黄片去广告，绕过会员机制
