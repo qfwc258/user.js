@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ri003(小黄片去广告，绕过会员机制)
 // @namespace    undefined
-// @version      0.0.3
+// @version      0.0.4
 // @description  http://www.ri003.com/。小黄片去广告，绕过会员机制
 // @author       16Free
 // @match        http://www.ri003.com/*
