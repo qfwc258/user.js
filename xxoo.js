@@ -1,11 +1,10 @@
 // ==UserScript==
-// @name         小黄片去广告
+// @name         ri003小黄片去广告
 // @namespace    undefined
 // @version      0.0.5
 // @description  小黄片去广告，绕过会员机制
 // @author       16Free
 // @match        http://www.ri003.com/*
-// @match        http://www.1717she.fun/*
 // @require      https://code.jquery.com/jquery-latest.js
 // @run-at       document-start
 // @grant        unsafeWindow
