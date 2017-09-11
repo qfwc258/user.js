@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         视频网站破解
+// @name         ri003(小黄片去广告，绕过会员机制)
 // @namespace    undefined
 // @version      0.0.2
-// @description  :underage: 视频网站破解(http://ripe.cf/)
+// @description  http://www.ri003.com/。小黄片去广告，绕过会员机制
 // @author       16Free
 // @match        http://www.ri003.com/*
 // @require      https://code.jquery.com/jquery-latest.js
